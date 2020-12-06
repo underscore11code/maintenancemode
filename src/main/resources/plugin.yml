@@ -3,7 +3,7 @@ version: @version@
 main: io.github.underscore11code.maintenancemode.MaintenanceMode
 api-version: 1.16
 authors: [ Underscore11 ]
-website: github.com/underscore11code
+website: https://github.com/underscore11code/maintenancemode
 
 commands:
   maintainence:
