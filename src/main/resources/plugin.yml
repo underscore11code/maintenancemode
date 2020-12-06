@@ -1,0 +1,18 @@
+name: MaintainenceMode
+version: @version@
+main: io.github.underscore11code.maintenancemode.MaintenanceMode
+api-version: 1.16
+authors: [ Underscore11 ]
+website: github.com/underscore11code
+
+commands:
+  maintainence:
+    aliases:
+      - mm
+    permission: maintainencemode.command
+    usage: /maintainencemode <on|off|reload>
+permissions:
+  maintainencemode.command:
+    default: op
+  maintainencemode.bypass:
+    default: op
